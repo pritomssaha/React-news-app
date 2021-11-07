@@ -7,7 +7,7 @@ export default function News(){
     const [search, setSearch]=useState("");
     const [error,setError]=useState(false)
     const [loading, setLoading]=useState(false);
-    const apiKey='f982ad5405ca46c69971293c237aeac3';
+    const apiKey='YOUR API KEY';
     
     useEffect(()=>{
         getData()
